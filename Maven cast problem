@@ -1,0 +1,22 @@
+# Maven
+
+Maven project's problem
+
+Q:
+java.lang.ClassCastException: com.yonyou.TestServlet cannot be cast to javax.servlet.Servlet
+
+A:
+servlet-api.jar与tomcat自带的包冲突，需要加上scope
+
+
+ <dependency>
+     <groupId>javax.servlet</groupId>
+     <artifactId>servlet-api</artifactId>
+     <version>2.5</version>
+     
+     
+     
+                              <scope>provided</scope>  <!--作用域加上即可-->
+     
+     
+</dependency>
