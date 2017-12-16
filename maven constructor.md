@@ -9,4 +9,4 @@ online install:
  1. Help-->Install New Software-->Add
  2. http addr：    name:m2e
  
-                  http://m2eclipse.sonatype.org/sites/m2e
+                 (http://m2eclipse.sonatype.org/sites/m2e)
