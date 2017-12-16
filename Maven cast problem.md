@@ -9,13 +9,13 @@ Maven project's problem
 5. system，类似provided
 
 
-Q:
+* Q:
 java.lang.ClassCastException: com.yonyou.TestServlet cannot be cast to javax.servlet.Servlet
 
-A:
+* A:
 servlet-api.jar与tomcat自带的包冲突，需要加上scope
 
-
+```
  <dependency>
      <groupId>javax.servlet</groupId>
      <artifactId>servlet-api</artifactId>
@@ -27,3 +27,4 @@ servlet-api.jar与tomcat自带的包冲突，需要加上scope
      
      
 </dependency>
+```
