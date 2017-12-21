@@ -15,7 +15,7 @@ java.lang.ClassCastException: com.yonyou.TestServlet cannot be cast to javax.ser
 * A:
 servlet-api.jar与tomcat自带的包冲突，需要加上scope
 
-```
+```xml
  <dependency>
      <groupId>javax.servlet</groupId>
      <artifactId>servlet-api</artifactId>
