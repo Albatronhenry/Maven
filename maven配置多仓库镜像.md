@@ -34,3 +34,7 @@ connect timed out
 
 ```
 希望你也做到了这一步。并且知道了mirrorOf为什么要配置为central
+
+
+最后记得在相应项目右击--maven-- update project
+[](https://github.com/Albatronhenry/UploadFile/blob/master/pic/%E6%9B%B4%E6%96%B0maven%E9%A1%B9%E7%9B%AE.png)
