@@ -1,4 +1,4 @@
-###  maven配置多仓库镜像
+###  [maven配置多仓库镜像](http://blog.csdn.net/haohaizijhz/article/details/72841489)
 
 * 问题描述：相应jar包从中央仓库下载老式显示连接超时，pom文件报错
 
