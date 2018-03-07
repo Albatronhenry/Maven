@@ -56,7 +56,7 @@ Maven on Eclipse : The correct configuration
 
 Fix the problem in the pom.xml
 
-###　1- Refer the JAVA_HOME to a JDK
+### 1- Refer the JAVA_HOME to a JDK
 
 If you are running Maven on command line, it is very likely that your Maven environment is not configured correctly. In fact, Maven relies on the JAVA_HOME environment variable to use the right compiler. JAVA_HOME must refer to a JDK (JAVA Development Kit) and not a JRE (Java Runtime Environment). See the difference between a JDK and a JRE
 
